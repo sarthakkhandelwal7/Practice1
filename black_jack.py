@@ -1,5 +1,6 @@
 ask='y'
 while(ask=='y'):
+    #'c' is used for some if-else cases in functions player, dealer, (mainly to check condition in function)distribution. 
     c=0
     print('Press h for hit and s for stand')
     bet=int(input('Place your bet:'))
